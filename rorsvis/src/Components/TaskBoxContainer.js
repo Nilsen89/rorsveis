@@ -11,16 +11,15 @@ class TaskBoxContrainer extends Component {
 		let flexStyle = {
 			display: "flex",
 			justifyContent: "center",
-			margin: "10px"
+			alignItems: "center"
 		}
 		return(
 			<div style={flexStyle}>
 					<Row>
 					{ file.map( function(obj) {
 						return(
-							<Col xs={6} md={4} mdOffset={1}>	
+							<Col xs={6} md={3} mdOffset={0}>	
 								<TaskBox src={obj.src}
-									alt={obj.alt}
 									label={obj.label}
 									content={obj.content}
 								/>
