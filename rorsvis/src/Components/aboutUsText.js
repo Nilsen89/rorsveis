@@ -30,7 +30,7 @@ class AboutUsText extends Component {
                     <Col xsHidden md={6}>
                         <img src={require("./roring.jpg")} alt="sendnudes" style={imgStyle}/>
                     </Col>
-                    <Col xs={18} md={6}>
+                    <Col xs={12} md={6}>
                         <h2>{file[0].title}</h2>
                         <hr style={textStyle}/>
                         <p>{file[0].content1}</p>
