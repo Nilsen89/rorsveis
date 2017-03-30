@@ -34,8 +34,10 @@ class ContactLayout extends Component {
                         <Col xs={12} md={6}>
                             <h2>{file[0].title}</h2>
                             <hr style={textStyle}/>
-                            <h3><i className="fa fa-address-card-o" aria-hidden="true"></i>{file[0].content1}</h3>
+                            <h3>{file[0].content1}</h3>
                             <h3>{file[0].content2}</h3>
+                            <h3><i className="fa fa-user"></i>{file[0].sjef1}</h3>
+                            <h3><i className="fa fa-user"></i>{file[0].sjef2}</h3>
                         </Col>
                     </Row>
                 </Grid>
