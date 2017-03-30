@@ -42,7 +42,7 @@ class ClientRouter extends Component {
 							<Footer/>	
 						</Col>
 					</Row>
-				</Grid>	
+				</Grid>
 			</Router>			
 		);				
 }} export default ClientRouter;

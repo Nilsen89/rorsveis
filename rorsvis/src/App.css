@@ -1,9 +1,10 @@
 .App {
   text-align: center;
+  font-family: 'Catamaran', sans-serif;
 }
 
 .grid {
-  padding-right: 0;
   padding-left: 0;
+  padding-right: 0;
 }
 
