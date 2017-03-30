@@ -35,7 +35,7 @@ class ClientRouter extends Component {
 							</Switch>
 						</Col>
 					</Row>
-				</Grid>	
+				</Grid>
 			</Router>			
 		);				
 }} export default ClientRouter;
