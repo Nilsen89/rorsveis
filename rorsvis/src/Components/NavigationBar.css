@@ -22,7 +22,9 @@ img {
     background-color: white;
     margin: 0;
     border-color: white;
+    border-bottom-color: #7f7f7f;
 }
+
 
 .nav {
 }

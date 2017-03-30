@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import ContactLayout from '../Components/ContactLayout'
 
 class Contact extends Component {
 	render() {
 		return (
 			<div className="contact">
-				<h2>Contact</h2>
+				<ContactLayout />
 			</div>
 		);
 	}
