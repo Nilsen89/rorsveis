@@ -1,14 +1,29 @@
 [
 		{	
-			"src": "http://www.pcfsct.com/blog/files/2014/11/weldsing.png",
-			"alt": "welding",
-			"label": "Welding",
-			"content": "We do good welding on pipes and other fun stuff."
-		},
+			"src": "http://www.illinoisweldingschool.com/files/5414/0548/0100/Skull_welding-1.jpg",
+			"alt": "Prjoect Welding",
+			"label": "Project Welding",
+			"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus efficitur lacus, nec consectetur odio scelerisque ut. Suspendisse sodales consequat mollis. Suspendisse lacinia, turpis gravida pulvinar posuere, mi nibh sodales. "
+		},	
 		{	
-			"src": "http://www.aacc.edu/welding/image/Welding2.jpg",
-			"alt": "pipe",
-			"label": "Piping",
-			"content": "We love pipes and do funny stuff with pipes, let our imagination have fun thoughts."
+			"src": "http://weldingdesign.com/site-files/weldingdesign.com/files/imagecache/large_img/uploads/2014/11/wd1120geweldinspection.jpg",
+			"alt": "Welding",
+			"label": "Pipelining",
+			"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus efficitur lacus, nec consectetur odio scelerisque ut. Suspendisse sodales consequat mollis. Suspendisse lacinia, turpis gravida pulvinar posuere, mi nibh sodales. "
+		},	
+		{	
+			"src": "http://www.foundation3d.com/uploads/studio/2013/02/2-22-562518.jpg",
+			"alt": "welding",
+			"label": "Mechanical Sarp",
+			"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus efficitur lacus, nec consectetur odio scelerisque ut. Suspendisse sodales consequat mollis. Suspendisse lacinia, turpis gravida pulvinar posuere, mi nibh sodales. "
+		},	
+		{	
+			"src": "http://images.wisegeek.com/welder.jpg",
+			"alt": "welding",
+			"label": "Fredrikstad Constrcution",
+			"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus efficitur lacus, nec consectetur odio scelerisque ut. Suspendisse sodales consequat mollis. Suspendisse lacinia, turpis gravida pulvinar posuere, mi nibh sodales."
 		}
+
+
+
 ]

@@ -4,20 +4,15 @@ import {Thumbnail, Image} from 'react-bootstrap';
 class TaskBox extends Component {
 	render() {
 		let labelStyle = {
-			color:"orange",
-			fontSize: "20"
+			color: "#f87431",
+			fontSize: "24",
 		}
-		let contentStyle = {
-			
+		let textStyle = {	
 		}
 		return(
-			<Thumbnail src={this.props.src} alt={this.props.alt}>
-				<p style={labelStyle}>
-					{this.props.label}
-				</p>
-				<p style={contentStyle}>
-					{this.props.content}
-				</p>
+			<Thumbnail src={this.props.src} alt="something">
+				<div style={labelStyle}>{this.props.label}</div>
+				<p style={textStyle}>{this.props.content}</p>
 			</Thumbnail>
 		);
 }} export default TaskBox;

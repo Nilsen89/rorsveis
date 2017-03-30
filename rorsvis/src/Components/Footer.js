@@ -5,22 +5,22 @@ class Footer extends Component {
 	render() {
 		let footerStyle = {
 			textAlign: "center",
-			height: "75px"
+			marginBottom: "20px",
+			marginTop: "10px"
 		}
 		return(
 			<div style={footerStyle}>
-			<hr/>
 				<Row>
-					<Col md={3} mdOffset={1} xs={6}>
-						Organisasjonsnummer: 817 724 892<br/>
-						1746 Skjberg<br/>
-						Sarpsborg
+					<Col md={3} mdOffset={2} xs={6}>
+						Org. nr: 817 724 892<br/>
+						Bissebergveien 95<br/>
+						1746 Skjberg, Sarpsborg
 					</Col>
-					<Col md={3} xs={6}>
+					<Col md={2} xs={6}>
 						<span>
 							contact{"\u0040"}rorsveis.no<br/>
 							All Rights Reserved.<br/>
-							<span style={{color:"orange"}}>©</span> 2017 RØR & SVEISESERVICE AS
+							<span style={{color:"orange"}}>©</span> 2017 Rør & Sveiseservice AS
 						</span>
 					</Col>
 					<Col md={3} xs={6}>
