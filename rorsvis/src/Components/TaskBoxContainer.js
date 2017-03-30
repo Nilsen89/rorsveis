@@ -7,22 +7,15 @@ class TaskBoxContrainer extends Component {
 	render() {
 		let flexStyle = {
 			display: "flex",
-			width: "100%",
 			justifyContent: "center",
-			backgroundColor: "black"
+			margin: "10px"
 		}
 		return(
-			<Grid>
-				<Row>
-					<Col md={12}>
-						<div style={flexStyle}>
-							<TaskBox />
-							<TaskBox />
-							<TaskBox />
-							<TaskBox />
-						</div>
-					</Col>
-				</Row>
-			</Grid>
+			<div style={flexStyle}>
+				<TaskBox />
+				<TaskBox />
+				<TaskBox />
+				<TaskBox />
+			</div>
 		);	
 }} export default TaskBoxContrainer;

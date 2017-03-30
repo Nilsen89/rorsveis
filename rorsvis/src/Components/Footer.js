@@ -4,11 +4,12 @@ class Footer extends Component {
 	render() {
 		let footerStyle = {
 			textAlign: "center",
-			backgroundColor: "black"
+			height: "50px"
 		}
 		return(
 			<div style={footerStyle}>
-				All Rights Reserved © 2017 Rør & Sveis
+				All Rights Reserved.<br/> 
+				© 2017 Rør & Sveis
 			</div>
 		);
 }} export default Footer;

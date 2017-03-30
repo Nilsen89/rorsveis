@@ -3,9 +3,9 @@ import React, {Component} from 'react';
 class TaskBox extends Component {
 	render() {
 		let boxStyle = {
-	    	height: "70%",
 			width: "20%",
-			backgroundColor: "gray",
+			backgroundColor: "black",
+			color: "white",
 			margin: "auto"
 		}
 		let imageBox = {
@@ -18,12 +18,12 @@ class TaskBox extends Component {
 				</div>
 				<div>
 					Lorem ipsum dolor sit amet,
-					  consectetur adipiscing elit. 
-					  Morbi et tortor fringilla, 
-					  hendrerit turpis vitae, 
-					  efficitur turpis. 
-					  Lorem ipsum dolor sit amet, 
-					  consectetur adipiscing elit.
+					consectetur adipiscing elit. 
+					Morbi et tortor fringilla, 
+					hendrerit turpis vitae, 
+					efficitur turpis. 
+					Lorem ipsum dolor sit amet, 
+					consectetur adipiscing elit.
 				</div>
 			</div>	
 		);
