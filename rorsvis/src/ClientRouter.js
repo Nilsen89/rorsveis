@@ -6,6 +6,7 @@ import About from './Views/About';
 import Contact from './Views/Contact';
 import Projects from './Views/Projects';
 import NotFound from './Views/NotFound';
+import NavigationBar from './Components/NavigationBar';
 
 import { 	BrowserRouter as Router,
 			Route,
@@ -20,11 +21,7 @@ class ClientRouter extends Component {
 				<Grid>
 					<Row>
 						<Col md={12}>
-							<ul>
-							    <li><Link to="/">Home</Link></li>
-								<li><Link to="/About">About</Link></li>
-								<li><Link to="/Contact">Contact</Link></li>
-							</ul>
+							<NavigationBar />
 						</Col>
 					</Row>
 					<Row>
