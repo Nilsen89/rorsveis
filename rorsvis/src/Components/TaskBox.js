@@ -1,30 +1,23 @@
 import React, {Component} from 'react';
+import {Thumbnail, Image} from 'react-bootstrap';
 
 class TaskBox extends Component {
 	render() {
-		let boxStyle = {
-			width: "20%",
-			backgroundColor: "black",
-			color: "white",
-			margin: "auto"
+		let labelStyle = {
+			color:"orange",
+			fontSize: "20"
 		}
-		let imageBox = {
+		let contentStyle = {
 			
 		}
 		return(
-			<div className="taskbox" style={boxStyle}>
-				<div style={imageBox}>
-					<img src={"something"} alt="something" />
-				</div>
-				<div>
-					Lorem ipsum dolor sit amet,
-					consectetur adipiscing elit. 
-					Morbi et tortor fringilla, 
-					hendrerit turpis vitae, 
-					efficitur turpis. 
-					Lorem ipsum dolor sit amet, 
-					consectetur adipiscing elit.
-				</div>
-			</div>	
+			<Thumbnail src={this.props.src} alt={this.props.alt}>
+				<p style={labelStyle}>
+					{this.props.label}
+				</p>
+				<p style={contentStyle}>
+					{this.props.content}
+				</p>
+			</Thumbnail>
 		);
 }} export default TaskBox;
