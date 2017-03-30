@@ -7,13 +7,6 @@ class Layout extends Component {
 			<Grid>
 				<Row>
 					<Col md={12}>
-						<div>
-							Menu here
-						</div>
-					</Col>
-				</Row>
-				<Row>
-					<Col md={12}>
 						<span className="bodyContent">
 							{this.props.children}
 						</span>
