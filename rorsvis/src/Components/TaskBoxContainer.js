@@ -18,7 +18,7 @@ class TaskBoxContrainer extends Component {
 					<Row>
 					{ file.map( function(obj) {
 						return(
-							<Col xs={6} md={3} mdOffset={0}>	
+							<Col xs={12} md={3} mdOffset={0}>	
 								<TaskBox src={obj.src}
 									label={obj.label}
 									content={obj.content}
