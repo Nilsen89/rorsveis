@@ -4,7 +4,7 @@ class FrontPicture extends Component {
 	render() {
 		let imageStyle = {
 			maxWidth: "100%",
-	    	height: "auto"
+	    	height: "auto",
 		}
 		return(
 			<div className="frontpicture">
