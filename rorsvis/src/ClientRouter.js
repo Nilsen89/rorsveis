@@ -20,7 +20,7 @@ class ClientRouter extends Component {
 	render() {
 		return(
 			<Router>
-				<Grid>
+				<Grid fluid className="grid">
 					<Row>
 						<Col md={12}>
 							<NavigationBar />
