@@ -8,11 +8,11 @@ class NavigationBar extends Component {
     render() {
 
     let navBarStyles = {
-        "backgoundColor": "black" //TODO: kanskje apostrofer rundt gray?
+        backgoundColor: "black"
     };
 
         return(
-            <Navbar fluid staticTop style={navBarStyles}>
+            <Navbar fluid style={navBarStyles}>
                 <Navbar.Header>
                     <Navbar.Brand>
                         Logo her
