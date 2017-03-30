@@ -1,13 +1,33 @@
 a {
-    color: orange;
+    color: #000000;
+    font-size: large;
 
+    padding-top: 10px;
 }
 
 a:hover {
     text-decoration: none;
+    color:#000000;
+}
+
+.link:hover {
+    background-color:rgba(88, 88, 88, 0.2);
 }
 
 img {
     height: 50px
+}
+
+.navbar {
+    background-color: white;
+    margin: 0;
+    border-color: white;
+}
+
+.nav {
+}
+
+.english {
+    height: 14px
 }
 
