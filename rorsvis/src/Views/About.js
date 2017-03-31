@@ -9,20 +9,11 @@ class AboutUs extends Component {
 		return (
 			<div className="aboutus">
 				<Row>
-					<AboutUsText />
-				</Row>
-				<Row style={{backgroundColor:"#f87431"}}>
-					<Col md={3}></Col>
-						<Profiles 	name="Rune Eide" 
-									title="Board Member" 
-									email="eide@rorsveis.no" />
-						<Profiles 	name="May-Liss Ahlsen Larsen" 
-									title="Board Member"
-									email="larsen@rorsveis.no" />
-						<Profiles 	name="Mariusz Stanislaw Roginski"
-									title="Board Member" 
-									email="roginiski@rorsveis.no"/>
-					<Col md={3}></Col>
+					<Col md={2}/>
+					<Col md={8}>
+						<AboutUsText />
+					</Col>
+					<Col md={2}/>
 				</Row>
 			</div>
 		);
