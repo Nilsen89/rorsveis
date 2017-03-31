@@ -26,9 +26,9 @@ class AboutUsText extends Component {
         return (
         <div>
             <Grid>
-                <Row style={rowStyle} fluid>
+                <Row style={rowStyle}>
                     <Col xsHidden md={6}>
-                        <img src={require("./roring.jpg")} alt="sendnudes" style={imgStyle}/>
+                        <img src={require("./roring.jpg")} alt="roring" style={imgStyle}/>
                     </Col>
                     <Col xs={12} md={6}>
                         <h2>{file[0].title}</h2>

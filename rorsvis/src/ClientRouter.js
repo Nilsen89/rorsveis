@@ -22,7 +22,7 @@ class ClientRouter extends Component {
 				<Grid fluid className="grid">
 					<Row>
 						<Col md={12}>
-							<NavigationBar />
+							<NavigationBar  />
 						</Col>
 					</Row>
 					<Row>
