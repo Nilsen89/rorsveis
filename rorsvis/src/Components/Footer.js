@@ -24,9 +24,9 @@ class Footer extends Component {
 						</span>
 					</Col>
 					<Col md={3} xs={6}>
-						Follow us:<br/>
+						<span style={{fontWeight:"bold"}}>Follow us:</span><br/>
 						Facebook<br/>
-						Linkdin<br/>
+						Linkd-in<br/>
 					</Col>
 				</Row>
 			</div>

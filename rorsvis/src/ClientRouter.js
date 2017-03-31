@@ -12,7 +12,6 @@ import Footer from './Components/Footer';
 
 import { 	BrowserRouter as Router,
 			Route,
-			Link,
 			Switch
 } from 'react-router-dom';
 
