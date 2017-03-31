@@ -24,8 +24,8 @@ class NavigationBar extends Component {
                         <NavItem className="link" eventKey={2}><Link to="/About">Om oss</Link></NavItem>
                         <NavItem className="link" eventKey={3}><Link to="/Contact">Kontakt</Link></NavItem>
                         <NavItem className="link" eventKey={4}><Link to="/Projects">Prosjekter</Link></NavItem>
-                        <NavItem><img src={require("./english.png")} className="english" /></NavItem>
-                        <NavItem><img src={require("./english.png")} className="english" /></NavItem>
+                        <NavItem><img src={require("./english.png")} alt="flag" className="english" /></NavItem>
+                        <NavItem><img src={require("./english.png")} alt="flag" className="english" /></NavItem>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
