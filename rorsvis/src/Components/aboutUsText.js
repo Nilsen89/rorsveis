@@ -27,11 +27,9 @@ class AboutUsText extends Component {
         <div>
             <Grid>
                 <Row style={rowStyle} fluid>
-                    <Col xsHidden md={6}>
-                        <img src={require("./roring.jpg")} alt="sendnudes" style={imgStyle}/>
-                    </Col>
-                    <Col xs={12} md={6}>
-                        <h2>{file[0].title}</h2>
+                    <Col xs={12} md={10} mdOffset={1}>
+                        <h1>{file[0].title}</h1>
+						<h3 style={{marginTop:"-10px"}}>{file[0].under}</h3>
                         <hr style={textStyle}/>
                         <p>{file[0].content1}</p>
                         <p>{file[0].content2}</p>
