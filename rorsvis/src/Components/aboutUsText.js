@@ -18,7 +18,7 @@ class AboutUsText extends Component {
             paddingBottom: "50px",
             display: "flex",
             alignItems: "center"
-        }
+        };
 
         let textStyle = {
             borderColor: "red"
@@ -26,19 +26,16 @@ class AboutUsText extends Component {
         return (
         <div>
             <Grid>
-                <Row style={rowStyle}>
-                    <Col xsHidden md={6}>
-                        <img src={require("./roring.jpg")} alt="roring" style={imgStyle}/>
-                    </Col>
-                    <Col xs={12} md={6}>
-                        <h2>{file[0].title}</h2>
+                <Row style={rowStyle} fluid>
+                    <Col xs={12} md={10} mdOffset={1}>
+                        <h1>{file[0].title}</h1>
+						<h3 style={{marginTop:"-10px"}}>{file[0].under}</h3>
                         <hr style={textStyle}/>
                         <p>{file[0].content1}</p>
                         <p>{file[0].content2}</p>
                     </Col>
                 </Row>
             </Grid>
-
         </div>
         );
     }
