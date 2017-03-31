@@ -1,6 +1,8 @@
 a {
     color: #000000;
     font-size: large;
+    font-family: Titillium Web;
+    font-weight: 500;
 
     padding-top: 10px;
 }
@@ -14,8 +16,9 @@ a:hover {
     background-color:rgba(88, 88, 88, 0.2);
 }
 
-img {
-    height: 50px
+.logo {
+    height: 30px;
+    margin-top: 6px;
 }
 
 .navbar {

@@ -12,12 +12,10 @@ class NavigationBar extends Component {
 
 
     render() {
-
-
         return(
             <Navbar className="navbar">
                 <Navbar.Header>
-                    <img src={require("./images.jpg")} className="logo" alt="Logo"/>
+                    <Link to={"/"}><img src={require("./logo.PNG")} className="logo" alt="Logo"/></Link>
                     <Navbar.Toggle />
                 </Navbar.Header>
                 <Navbar.Collapse>
@@ -29,13 +27,6 @@ class NavigationBar extends Component {
                         <ListItemLink className="link" to="/About">Om oss</ListItemLink>
                         <ListItemLink className="link" to="/Contact">Kontakt</ListItemLink>
                         <NavItem><img src={require("./english.png")} alt="flag" className="english" /></NavItem>
-                        {/*
-                        <NavItem className="link" eventKey={1}><Link to="/">Hjem</Link></NavItem>
-                        <NavItem className="link" eventKey={2}><Link to="/About">Om oss</Link></NavItem>
-                        <NavItem className="link" eventKey={3}><Link to="/Contact">Kontakt</Link></NavItem>
-                        <NavItem className="link" eventKey={4}><Link to="/Projects">Prosjekter</Link></NavItem>
-                        <NavItem><img src={require("./english.png")} alt="flag" className="english" /></NavItem>
-                        <NavItem><img src={require("./english.png")} alt="flag" className="english" /></NavItem>*/}
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
