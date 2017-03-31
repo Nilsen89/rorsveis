@@ -8,7 +8,7 @@ class FrontPicture extends Component {
 		}
 		return(
 			<div className="frontpicture">
-				<img src={require("./../images/welding.jpg")} alt="front" style={imageStyle} />
+				<img src={require("./../images/welder_03.jpg")} alt="front" style={imageStyle} />
 			</div>	
 		);
 }} export default FrontPicture;
