@@ -6,12 +6,10 @@ import {Grid, Row, Col} from 'react-bootstrap';
 import Profiles from './Profiles';
 
 
+
 class AboutUsText extends Component {
     render() {
         let file = require("../Data/AboutUs.json");
-        let headerStyle = {
-            fontSize: "300%"
-        };
 
         let rowStyle = {
             paddingTop: "50px",
@@ -20,9 +18,6 @@ class AboutUsText extends Component {
             alignItems: "center"
         };
 
-        let textStyle = {
-            borderColor: "red"
-        };
 
         let verticalLine = {
             borderColor: "black",
@@ -42,11 +37,6 @@ class AboutUsText extends Component {
         return (
         <div>
             <Grid fluid>
-                <Row>
-                    <h1 style={headerStyle}>{file[0].title}</h1>
-                    <h3 style={{marginTop:"-10px"}}><i>{file[0].under}</i></h3>
-                    <hr style={textStyle}/>
-                </Row>
                 <Row style={rowStyle}>
                     <Col md={6} mdOffset={1}>
                         <p style={contentStyle}>{file[0].content1}</p>

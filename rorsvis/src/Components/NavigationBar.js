@@ -15,7 +15,7 @@ class NavigationBar extends Component {
         return(
             <Navbar className="navbar">
                 <Navbar.Header>
-                    <Link to={"/"}><img src={require("./logo.PNG")} className="logo" alt="Logo"/></Link>
+                    <Link to={"/"}><img src={require("./../images/Logo.png")} className="logo" alt="Logo"/></Link>
                     <Navbar.Toggle />
                 </Navbar.Header>
                 <Navbar.Collapse>
