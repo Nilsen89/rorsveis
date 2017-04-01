@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Row, Col} from 'react-bootstrap';
+import {Row, Col, Grid} from 'react-bootstrap';
 
 import AboutUsText from '../Components/aboutUsText';
 import Profiles from '../Components/Profiles';
@@ -12,16 +12,13 @@ class AboutUs extends Component {
 
 		return (
 			<div className="aboutus">
-				<Row>
-					<Col md={2}/>
-					<Col md={8}>
-						<Row>
-							<PageHeader title={file[0].title} quote={file[0].quote}/>
-						</Row>
-						<AboutUsText />
-					</Col>
-					<Col md={2}/>
-				</Row>
+				<Grid>
+					<Row>
+						<PageHeader title={file[0].title} quote={file[0].quote}/>
+					</Row>
+					<AboutUsText />
+				</Grid>
+
 			</div>
 		);
 	}

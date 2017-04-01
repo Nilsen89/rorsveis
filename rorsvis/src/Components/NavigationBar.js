@@ -13,7 +13,7 @@ class NavigationBar extends Component {
 
     render() {
         return(
-            <Navbar className="navbar">
+            <Navbar className="navbar" fixedTop>
                 <Navbar.Header>
                     <Link to={"/"}><img src={require("./../images/Logo.png")} className="logo" alt="Logo"/></Link>
                     <Navbar.Toggle />
