@@ -2,7 +2,7 @@
  * Created by Rasmus on 31.03.2017.
  */
 import React from 'react'
-import {Route, Link, NavLink} from 'react-router-dom'
+import {Route, NavLink} from 'react-router-dom'
 
 const ListItemLink = ({to, children}) => (
     <Route path={to} children={({match}) => (

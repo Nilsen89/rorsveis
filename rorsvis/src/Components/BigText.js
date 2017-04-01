@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class BigText extends Component {
 	render() {
 		let myStyle = {
-			fontSize: "24",
+			fontSize: "24px",
 			padding: "24px"
 		}
 		return(
