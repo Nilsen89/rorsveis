@@ -1,9 +1,13 @@
 [
-		{
-			"content1": "Tlf: 22226666",
-			"content2": "Email: contact@rorsveis.no",
-			"sjef1": "Sjef Sjefesen: sjef@sjefesen.no, +47 94823954",
-			"sjef2": "Sjefe Sjefilsen: sjefe@sjefilsen.no, +47 47238907"
-
-		}
+	{
+		"openinghours": "Kontortider:",
+		"weekdays": "Hverdager: 0800-1600",
+		"weekends": "Helger: Stengt",
+		"contactinfo": "Kontaktinformasjon",
+		"telephone": "Tlf: 22226666",
+		"address": "Adresse: Bissebergveien 95, 1746 Skjeberg",
+		"orgNo": "Org.nr.: 817 724 892",
+		"email1": "E-post:",
+		"email2": "contact@rorsveis.no"
+	}
 ]
