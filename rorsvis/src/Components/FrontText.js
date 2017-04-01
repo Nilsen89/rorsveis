@@ -4,17 +4,17 @@ import {Row, Col} from 'react-bootstrap';
 class FrontText extends Component {
 	render() {
 		let boxStyle = {
-			padding: "24px",
+			padding: "22px",
 			backgroundColor: "#f87431"
 		}
 	
 		return(
 			<div style={boxStyle}>
-				<div style={{fontSize:"24", fontWeight:"bold", marginBottom:"25px"}}>Our Servies:</div>
+				<div style={{fontSize:"24px", fontWeight:"bold", marginBottom:"25px"}}>Our Servies:</div>
 				<Row>
 					<Col md={4} xs={6} mdOffset={2}>
 						<div style={{border:"1px dashed black", padding:"10px"}}>
-							<span style={{fontSize:"18", fontWeight:"bold"}}>Welding</span>
+							<span style={{fontSize:"18px", fontWeight:"bold"}}>Welding</span>
 							<p>We offer our experienced services in welding to you and your firm.
 							Rør & Sveis have many years experience within welding and take pride in
 							doing good work.
@@ -26,7 +26,7 @@ class FrontText extends Component {
 					</Col>
 					<Col md={4} xs={6}>
 						<div style={{border:"1px dashed black", padding:"10px"}}>
-							<span style={{fontSize:"18", fontWeight:"bold"}}>Piping</span>
+							<span style={{fontSize:"18px", fontWeight:"bold"}}>Piping</span>
 							<p>Rør & Sveis have personell with decade of experience with piping, and other
 							services related pipes, we can do the work needed to be done.
 							<br/><br/>

@@ -6,7 +6,9 @@ class Footer extends Component {
 		let footerStyle = {
 			textAlign: "center",
 			marginBottom: "20px",
-			marginTop: "10px"
+			marginTop: "10px",
+			paddingTop: "10px",
+			borderTop: "1px solid red"
 		}
 		return(
 			<div style={footerStyle}>

@@ -5,7 +5,7 @@ class TaskBox extends Component {
 	render() {
 		let labelStyle = {
 			color: "#f87431",
-			fontSize: "24",
+			fontSize: "22px",
 		};
 		return(
 			<Thumbnail src={this.props.src} alt="something">

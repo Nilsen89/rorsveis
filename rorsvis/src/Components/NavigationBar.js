@@ -6,7 +6,6 @@ import {Navbar, Nav, NavItem} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
 import './NavigationBar.css'
 import ListItemLink from './ListItemLink'
-import IndexListItemLink from './IndexListItemLink'
 
 class NavigationBar extends Component {
 
