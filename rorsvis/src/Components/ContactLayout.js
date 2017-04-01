@@ -32,8 +32,6 @@ class ContactLayout extends Component {
                             <img src={require("./contact.jpg")} alt="contact" style={imgStyle}/>
                         </Col>
                         <Col xs={12} md={6}>
-                            <h2>{file[0].title}</h2>
-                            <hr style={textStyle}/>
                             <h3>{file[0].content1}</h3>
                             <h3>{file[0].content2}</h3>
                             <h3><i className="fa fa-user"></i>{file[0].sjef1}</h3>

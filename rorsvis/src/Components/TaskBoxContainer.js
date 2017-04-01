@@ -12,7 +12,7 @@ class TaskBoxContrainer extends Component {
 			display: "flex",
 			justifyContent: "center",
 			alignItems: "center"
-		}
+		};
 		return(
 			<div style={flexStyle}>
 					<Row>
