@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import {Row, Col} from 'react-bootstrap';
 
 import AboutUsText from '../Components/aboutUsText';
-import Profiles from '../Components/Profiles';
 import PageHeader from './../Components/PageHeader';
 
 class AboutUs extends Component {

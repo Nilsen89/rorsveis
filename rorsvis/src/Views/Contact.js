@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ContactLayout from '../Components/ContactLayout';
 import PageHeader from '../Components/PageHeader';
-import Row from 'react-bootstrap';
+import {Row, Grid} from 'react-bootstrap';
 
 class Contact extends Component {
 	render() {
@@ -10,10 +10,12 @@ class Contact extends Component {
 
 		return (
 			<div className="contact">
-				<Row>
-					<PageHeader title={file[0].title} quote={file[0].quote}/>
-				</Row>
-				<ContactLayout />
+				<Grid>
+					<Row>
+						<PageHeader title={file[0].title} quote={file[0].quote}/>
+					</Row>
+					<ContactLayout />
+				</Grid>
 			</div>
 		);
 	}
