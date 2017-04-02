@@ -2,7 +2,7 @@
  * Created by Rasmus on 30.03.2017.
  */
 import React, {Component} from 'react'
-import {Navbar, Nav, NavItem} from 'react-bootstrap'
+import {Navbar, Nav} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
 import './NavigationBar.css'
 import ListItemLink from './ListItemLink'
@@ -26,7 +26,7 @@ class NavigationBar extends Component {
 		}
         return(
             <Navbar className="navbar" fixedTop>
-                <Navbar.Header pullLeft>
+                <Navbar.Header>
                     <Link to={"/"}><img src={require("./../images/Logo.png")} className="logo" alt="Logo"/></Link>
                     <Navbar.Toggle />
                 </Navbar.Header>
