@@ -10,8 +10,16 @@ import ListItemLink from './ListItemLink'
 class NavigationBar extends Component {
     render() {
 
-        let file = require("../Data/NavigationBar.json");
 
+        let file = require("../Data/"+localStorage.getItem("lang")+"/NavigationBar.json");
+
+		function handleClick(e) {
+			if(localStorage.getItem("lang") === "eng") {
+				localStorage.setItem("lang", "no")
+			} else {
+				localStorage.setItem("lang", "eng")
+			}
+		}
         return(
             <Navbar className="navbar" fixedTop>
                 <Navbar.Header pullLeft>
@@ -24,13 +32,15 @@ class NavigationBar extends Component {
                         <ListItemLink className="link" to="/Projects">{file[0].projects}</ListItemLink>
                         <ListItemLink className="link" to="/About">{file[0].about}</ListItemLink>
                         <ListItemLink className="link" to="/Contact">{file[0].contact}</ListItemLink>
-                        <NavItem><img src={require("./english.png")} alt="flag" className="english" /></NavItem>
+                        <NavItem onClick={handleClick}>
+							<ListItemLink to="/">
+							<img src={require("./english.png")} 
+								 alt="flag" 
+								 className="english" />
+							</ListItemLink>
+						</NavItem>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
         );
-
-
-    }
-} export default NavigationBar;
-
+}} export default NavigationBar;

@@ -6,7 +6,7 @@ import TaskBox from './TaskBox';
 class TaskBoxContrainer extends Component {
 	render() {
 
-		let file = require("./../Data/Thumbnail.json");		
+		let file = require("./../Data/"+localStorage.getItem("lang")+"/Thumbnail.json");		
 
 		let flexStyle = {
 			display: "flex",

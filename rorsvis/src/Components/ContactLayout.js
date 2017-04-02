@@ -7,7 +7,7 @@ import {Grid, Row, Col} from 'react-bootstrap';
 class ContactLayout extends Component {
 
     render() {
-        let file = require("../Data/Contact.json");
+        let file = require("../Data/"+localStorage.getItem("lang")+"/Contact.json");
         let imgStyle = {
             width: "400px",
             height: "250px"

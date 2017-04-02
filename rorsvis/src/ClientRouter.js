@@ -12,7 +12,8 @@ import Footer from './Components/Footer';
 
 import { 	BrowserRouter as Router,
 			Route,
-			Switch
+			Switch,
+			Redirect
 } from 'react-router-dom';
 
 class ClientRouter extends Component {

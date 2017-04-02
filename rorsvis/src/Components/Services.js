@@ -11,7 +11,7 @@ class FrontText extends Component {
 			fontSize: "18px",
 			fontWeight:"bold",
 		}
-		let file = require("./../Data/Services.json");
+		let file = require("./../Data/"+localStorage.getItem("lang")+"/Services.json");
 
 		return(
 			<Col md={6} xs={12}>

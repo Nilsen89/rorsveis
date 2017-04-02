@@ -7,7 +7,7 @@ import {Route, Link} from 'react-router-dom'
 const IndexListItemLink = ({to, children}) => (
     <Route path={to} children={({match}) => (
         <li role="presentation" className={match ? 'active' : ''}>
-            <Link to={to} onlyActiveOnIndex>{children}</Link>
+            <Link to={to} params={this.props.lang} onlyActiveOnIndex>{children}</Link>
         </li>
     )} />
 );

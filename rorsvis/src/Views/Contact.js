@@ -8,7 +8,7 @@ import SimpleMap from './../Components/SimpleMap'
 class Contact extends Component {
 	render() {
 
-		let file = require('../Data/PageHeaderContact.json');
+		let file = require("../Data/"+localStorage.getItem("lang")+"/PageHeaderContact.json");
 
 		return (
 			<div className="contact">

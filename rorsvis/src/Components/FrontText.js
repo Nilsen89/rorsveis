@@ -13,7 +13,7 @@ class FrontText extends Component {
 			fontWeight: "bold",
 			fontSize: "24px",
 		}
-		let file = require("./../Data/Services.json");
+		let file = require("./../Data/"+localStorage.getItem("lang")+"/Services.json");
 
 		return(
 			<div style={boxStyle}>
