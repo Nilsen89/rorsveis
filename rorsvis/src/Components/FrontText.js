@@ -1,39 +1,29 @@
 import React, {Component} from 'react';
-import {Row, Col} from 'react-bootstrap';
+import {Grid, Row, Col} from 'react-bootstrap';
+
+import Service from './Services';
 
 class FrontText extends Component {
 	render() {
 		let boxStyle = {
-			padding: "22px",
+			padding: "18px",
 			backgroundColor: "#f87431"
 		}
-	
+		let labelStyle = {
+			fontWeight: "bold",
+			fontSize: "24px",
+		}
+		let file = require("./../Data/Services.json");
+
 		return(
 			<div style={boxStyle}>
-				<div style={{fontSize:"24px", fontWeight:"bold", marginBottom:"25px"}}>Our Servies:</div>
+				<span style={labelStyle}>Services</span>
 				<Row>
-					<Col md={4} xs={6} mdOffset={2}>
-						<div style={{border:"1px dashed black", padding:"10px"}}>
-							<span style={{fontSize:"18px", fontWeight:"bold"}}>Welding</span>
-							<p>We offer our experienced services in welding to you and your firm.
-							Rør & Sveis have many years experience within welding and take pride in
-							doing good work.
-							<br/><br/>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus efficitur lacus, nec consectetur odio scelerisque ut. Suspendisse sodales consequat mollis. Suspendisse lacinia, turpis gravida pulvinar posuere, mi nibh sodales. 
-
-							</p>
-						</div>
-					</Col>
-					<Col md={4} xs={6}>
-						<div style={{border:"1px dashed black", padding:"10px"}}>
-							<span style={{fontSize:"18px", fontWeight:"bold"}}>Piping</span>
-							<p>Rør & Sveis have personell with decade of experience with piping, and other
-							services related pipes, we can do the work needed to be done.
-							<br/><br/>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus efficitur lacus, nec consectetur odio scelerisque ut. Suspendisse sodales consequat mollis. Suspendisse lacinia, turpis gravida pulvinar posuere, mi nibh sodales. 
-							</p>
-						</div>
-					</Col>
+					{ file.map( function(obj) {
+						return(
+							<Service label={obj.label} content={obj.content} />
+			  			);
+					})}
 				</Row>
 			</div>
 		);

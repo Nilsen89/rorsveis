@@ -14,7 +14,7 @@ class Projects extends Component {
 					<Row>
 						<PageHeader title={file[0].title} quote={file[0].quote}/>
 					</Row>
-
+					<TaskBoxContainer />
 					<TaskBoxContainer />
 				</Grid>
 

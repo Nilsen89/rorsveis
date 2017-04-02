@@ -3,6 +3,8 @@ import ContactLayout from '../Components/ContactLayout';
 import PageHeader from '../Components/PageHeader';
 import {Row, Grid} from 'react-bootstrap';
 
+import SimpleMap from './../Components/SimpleMap'
+
 class Contact extends Component {
 	render() {
 
@@ -14,6 +16,7 @@ class Contact extends Component {
 					<Row>
 						<PageHeader title={file[0].title} quote={file[0].quote}/>
 					</Row>
+					<SimpleMap />
 					<ContactLayout />
 				</Grid>
 			</div>
