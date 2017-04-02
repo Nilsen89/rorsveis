@@ -20,10 +20,6 @@ class ContactLayout extends Component {
             alignItems: "center"
         };
 
-        let textStyle = {
-            borderColor: "red"
-        };
-
         return (
             <div>
                 <Grid>

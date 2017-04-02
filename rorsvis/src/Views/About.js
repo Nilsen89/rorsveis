@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Row, Col, Grid} from 'react-bootstrap';
+import {Row, Grid} from 'react-bootstrap';
 
 import AboutUsText from '../Components/aboutUsText';
 import PageHeader from './../Components/PageHeader';
