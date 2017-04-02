@@ -4,6 +4,7 @@ import ClientRouter from './ClientRouter';
 
 class App extends Component {
   render() {
+	localStorage.setItem("lang", "no")
     return (
 		<div className="App">
 			<ClientRouter />

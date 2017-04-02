@@ -7,7 +7,7 @@ import PageHeader from './../Components/PageHeader';
 class AboutUs extends Component {
 	render() {
 
-		let file = require("./../Data/PageHeaderAboutUs.json");
+		let file = require("./../Data/"+localStorage.getItem("lang")+"/PageHeaderAboutUs.json");
 
 		return (
 			<div className="aboutus">

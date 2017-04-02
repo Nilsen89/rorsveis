@@ -11,8 +11,8 @@ class FrontText extends Component {
 		let labelStyle = {
 			fontSize: "18px",
 			fontWeight:"bold",
-		};
-		let file = require("./../Data/Services.json");
+		}
+		let file = require("./../Data/"+localStorage.getItem("lang")+"/Services.json");
 
 		return(
 			<Col md={4} xs={12}>

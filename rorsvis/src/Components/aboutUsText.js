@@ -9,7 +9,7 @@ import Profiles from './Profiles';
 
 class AboutUsText extends Component {
     render() {
-        let file = require("../Data/AboutUs.json");
+        let file = require("../Data/"+localStorage.getItem("lang")+"/AboutUs.json");
 
         let rowStyle = {
             paddingTop: "50px",
