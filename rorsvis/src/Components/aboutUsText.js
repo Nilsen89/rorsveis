@@ -22,6 +22,7 @@ class AboutUsText extends Component {
         let verticalLine = {
             borderColor: "black",
             borderLeft: "solid",
+            borderWidth: "1px"
         };
 
         let contentStyle = {
@@ -42,7 +43,7 @@ class AboutUsText extends Component {
                         <p style={contentStyle}>{file[0].content1}</p>
                         <p style={contentStyle}>{file[0].content2}</p>
                     </Col>
-                    <Col md={6} style={verticalLine}>
+                    <Col xsHidden smHidden md={6} style={verticalLine}>
                         <Row style={centerRow}>
                             <Profiles 	name="Rune Eide"
                                          title="Board Member"
@@ -59,7 +60,23 @@ class AboutUsText extends Component {
                                          email="roginiski@rorsveis.no"/>
                         </Row>
                     </Col>
-
+                </Row>
+                <Row style={{paddingBottom: "20px"}}>
+                    <Col xs={4} mdHidden lgHidden xlHidden>
+                        <Profiles 	name="Rune Eide"
+                                     title="Board Member"
+                                     email="eide@rorsveis.no" />
+                    </Col>
+                    <Col xs={4} mdHidden lgHidden xlHidden>
+                        <Profiles 	name="May-Liss Ahlsen Larsen"
+                                     title="Board Member"
+                                     email="larsen@rorsveis.no" />
+                    </Col>
+                    <Col xs={4} mdHidden lgHidden xlHidden>
+                        <Profiles 	name="Mariusz Stanislaw Roginski"
+                                     title="Board Member"
+                                     email="roginiski@rorsveis.no"/>
+                    </Col>
                 </Row>
             </Grid>
         </div>

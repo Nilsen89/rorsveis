@@ -34,7 +34,7 @@ class NavigationBar extends Component {
                         <ListItemLink className="link" to="/Contact">{file[0].contact}</ListItemLink>
                         <NavItem onClick={handleClick}>
 							<ListItemLink to="/">
-							<img src={require("./english.png")} 
+							<img src={require("../images/english.png")}
 								 alt="flag" 
 								 className="english" />
 							</ListItemLink>
