@@ -32,10 +32,14 @@ class ContactLayout extends Component {
                             <img src={require("./contact.jpg")} alt="contact" style={imgStyle}/>
                         </Col>
                         <Col xs={12} md={6}>
-                            <h3>{file[0].content1}</h3>
-                            <h3>{file[0].content2}</h3>
-                            <h3><i className="fa fa-user"></i>{file[0].sjef1}</h3>
-                            <h3><i className="fa fa-user"></i>{file[0].sjef2}</h3>
+                            <h3><b>{file[0].openinghours}</b></h3>
+                            <h4>{file[0].weekdays}</h4>
+                            <h4>{file[0].weekends}</h4>
+                            <hr/>
+                            <h3><b>{file[0].contactinfo}</b></h3>
+                            <h4>{file[0].telephone}</h4>
+                            <h4>{file[0].address}</h4>
+                            <h4>{file[0].email1} <a href="mailto:contact@rorsveis.no">{file[0].email2}</a></h4>
                         </Col>
                     </Row>
                 </Grid>

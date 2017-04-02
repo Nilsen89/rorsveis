@@ -1,0 +1,29 @@
+[
+		{	
+			"src": "http://i.imgur.com/VIpG6LY.jpg",
+			"alt": "Proj		ect Welding",
+			"label": "Project Welding",
+			"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus efficitur lacus, nec consectetur odio scelerisque ut. Suspendisse sodales consequat mollis. Suspendisse lacinia, turpis gravida pulvinar posuere, mi nibh sodales. "
+		},	
+		{	
+			"src": "http://i.imgur.com/MjK92ix.jpg",
+			"alt": "Welding",
+			"label": "Pipelining",
+			"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus efficitur lacus, nec consectetur odio scelerisque ut. Suspendisse sodales consequat mollis. Suspendisse lacinia, turpis gravida pulvinar posuere, mi nibh sodales. "
+		},	
+		{	
+			"src": "http://i.imgur.com/URaTfsF.jpg",
+			"alt": "welding",
+			"label": "Mechanical Sarp",
+			"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus efficitur lacus, nec consectetur odio scelerisque ut. Suspendisse sodales consequat mollis. Suspendisse lacinia, turpis gravida pulvinar posuere, mi nibh sodales. "
+		},	
+		{	
+			"src": "http://i.imgur.com/toVBIsX.jpg",
+			"alt": "welding",
+			"label": "Fredrikstad Constrcution",
+			"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus efficitur lacus, nec consectetur odio scelerisque ut. Suspendisse sodales consequat mollis. Suspendisse lacinia, turpis gravida pulvinar posuere, mi nibh sodales."
+		}
+
+
+
+]

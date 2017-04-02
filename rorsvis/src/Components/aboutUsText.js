@@ -43,7 +43,7 @@ class AboutUsText extends Component {
                         <p style={contentStyle}>{file[0].content2}</p>
                     </Col>
                     <Col md={6} style={verticalLine}>
-                        <Row fluid style={centerRow}>
+                        <Row style={centerRow}>
                             <Profiles 	name="Rune Eide"
                                          title="Board Member"
                                          email="eide@rorsveis.no" />
