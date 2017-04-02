@@ -6,12 +6,15 @@ import {Navbar, Nav, NavItem} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
 import './NavigationBar.css'
 import ListItemLink from './ListItemLink'
+import {Image} from 'react-bootstrap'
 
 class NavigationBar extends Component {
     render() {
 
 
         let file = require("../Data/"+localStorage.getItem("lang")+"/NavigationBar.json");
+        let imgsrc = require("../images/"+localStorage.getItem("lang")+".png");
+		let flagImg = <Image src={imgsrc} alt="flag" onClick={handleClick}/>
 
 		function handleClick(e) {
 			if(localStorage.getItem("lang") === "eng") {
@@ -32,13 +35,9 @@ class NavigationBar extends Component {
                         <ListItemLink className="link" to="/Projects">{file[0].projects}</ListItemLink>
                         <ListItemLink className="link" to="/About">{file[0].about}</ListItemLink>
                         <ListItemLink className="link" to="/Contact">{file[0].contact}</ListItemLink>
-                        <NavItem onClick={handleClick}>
-							<ListItemLink to="/">
-							<img src={require("./english.png")} 
-								 alt="flag" 
-								 className="english" />
-							</ListItemLink>
-						</NavItem>
+						<Link to="/">
+							{flagImg}
+						</Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
