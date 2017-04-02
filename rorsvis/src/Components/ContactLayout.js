@@ -29,7 +29,7 @@ class ContactLayout extends Component {
                 <Grid>
                     <Row style={rowStyle} >
                         <Col xsHidden md={6}>
-                            <img src={require("./contact.jpg")} alt="contact" style={imgStyle}/>
+                            <img src={require("./../images/contact.jpg")} alt="contact" style={imgStyle}/>
                         </Col>
                         <Col xs={12} md={6}>
                             <h3><b>{file[0].openinghours}</b></h3>

@@ -16,15 +16,18 @@ class FrontText extends Component {
 		let file = require("./../Data/Services.json");
 
 		return(
+
 			<div style={boxStyle}>
-				<span style={labelStyle}>Services</span>
-				<Row>
-					{ file.map( function(obj) {
-						return(
-							<Service label={obj.label} content={obj.content} />
-			  			);
-					})}
-				</Row>
+				<Grid>
+					<span style={labelStyle}>Services</span>
+					<Row>
+						{ file.map( function(obj) {
+							return(
+								<Service label={obj.label} content={obj.content} />
+							);
+						})}
+					</Row>
+				</Grid>
 			</div>
 		);
 }} export default FrontText;

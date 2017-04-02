@@ -24,7 +24,7 @@ class NavigationBar extends Component {
                         <ListItemLink className="link" to="/Projects">{file[0].projects}</ListItemLink>
                         <ListItemLink className="link" to="/About">{file[0].about}</ListItemLink>
                         <ListItemLink className="link" to="/Contact">{file[0].contact}</ListItemLink>
-                        <NavItem><img src={require("./english.png")} alt="flag" className="english" /></NavItem>
+                        <NavItem><img src={require("./../images/english.png")} alt="flag" className="english" /></NavItem>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
