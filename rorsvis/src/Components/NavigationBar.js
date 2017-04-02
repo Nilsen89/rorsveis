@@ -7,6 +7,7 @@ import {Link} from 'react-router-dom'
 import './NavigationBar.css'
 import ListItemLink from './ListItemLink'
 import {Image} from 'react-bootstrap'
+import {NavLink} from 'react-router-dom'
 
 class NavigationBar extends Component {
     render() {
@@ -35,9 +36,12 @@ class NavigationBar extends Component {
                         <ListItemLink className="link" to="/Projects">{file[0].projects}</ListItemLink>
                         <ListItemLink className="link" to="/About">{file[0].about}</ListItemLink>
                         <ListItemLink className="link" to="/Contact">{file[0].contact}</ListItemLink>
-						<Link to="/">
-							{flagImg}
-						</Link>
+                        <li>
+                            <NavLink to="/">
+                                {flagImg}
+                            </NavLink>
+                        </li>
+
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
