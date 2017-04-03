@@ -8,7 +8,7 @@ class Footer extends Component {
 			marginBottom: "20px",
 			marginTop: "10px",
 			paddingTop: "10px",
-			borderTop: "1px solid red"
+			borderTop: "1px solid black"
 		}
 		return(
 			<div style={footerStyle}>

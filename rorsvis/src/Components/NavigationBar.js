@@ -15,7 +15,7 @@ class NavigationBar extends Component {
 
         let file = require("../Data/"+localStorage.getItem("lang")+"/NavigationBar.json");
         let imgsrc = require("../images/"+localStorage.getItem("lang")+".png");
-		let flagImg = <Image src={imgsrc} alt="flag" onClick={handleClick}/>
+		let flagImg = <Image className="english" src={imgsrc} alt="flag" onClick={handleClick}/>
 
 		function handleClick(e) {
 			if(localStorage.getItem("lang") === "eng") {

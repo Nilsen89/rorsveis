@@ -7,7 +7,7 @@ import {Row, Grid} from 'react-bootstrap'
 class Projects extends Component {
 	render() {
 
-		let file = require('../Data/no/PageHeaderProjects.json');
+		let file = require('../Data/'+localStorage.getItem("lang")+'/PageHeaderProjects.json');
 		return (
 			<div className="Projects">
 				<Grid>
