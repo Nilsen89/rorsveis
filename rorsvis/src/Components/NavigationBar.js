@@ -7,11 +7,15 @@ import {Link} from 'react-router-dom'
 import './NavigationBar.css'
 import ListItemLink from './ListItemLink'
 import {Image} from 'react-bootstrap'
-import {NavLink} from 'react-router-dom'
+import {NavLink, Redirect} from 'react-router-dom'
 
 class NavigationBar extends Component {
-    render() {
+		
+	contextTypes: {
+		router: React.PropTypes.func.isRequired
+	}
 
+    render() {
 		let flagger = "eng"
 		if(localStorage.getItem("lang") === "eng") {
 			flagger = "no"
@@ -19,7 +23,7 @@ class NavigationBar extends Component {
 
         let file = require("../Data/"+localStorage.getItem("lang")+"/NavigationBar.json");
         let imgsrc = require("../images/"+flagger+".png");
-		let flagImg = <Image className="english" src={imgsrc} alt="flag" onClick={handleClick}/>
+		let flagImg = <Image className="flag" src={imgsrc} alt="flag" onClick={handleClick}/>
 
 		function handleClick(e) {
 			if(localStorage.getItem("lang") === "eng") {
@@ -27,6 +31,7 @@ class NavigationBar extends Component {
 			} else {
 				localStorage.setItem("lang", "eng")
 			}
+			this.context.history.push("/");
 		}
         return(
             <Navbar className="navbar" fixedTop>
@@ -41,9 +46,7 @@ class NavigationBar extends Component {
                         <ListItemLink className="link" to="/About">{file[0].about}</ListItemLink>
                         <ListItemLink className="link" to="/Contact">{file[0].contact}</ListItemLink>
                         <li>
-                            <NavLink to="/">
-                                {flagImg}
-                            </NavLink>
+                        	{flagImg}
                         </li>
 
                     </Nav>
