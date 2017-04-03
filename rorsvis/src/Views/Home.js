@@ -12,7 +12,8 @@ class Home extends Component {
 				<BigText />
 				<TaskBoxContainer />
 				<FrontText />
+				<BigText />
 			</div>
-		);
+		);	
 	}
 } export default Home;

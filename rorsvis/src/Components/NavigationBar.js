@@ -12,9 +12,13 @@ import {NavLink} from 'react-router-dom'
 class NavigationBar extends Component {
     render() {
 
+		let flagger = "eng"
+		if(localStorage.getItem("lang") === "eng") {
+			flagger = "no"
+		}
 
         let file = require("../Data/"+localStorage.getItem("lang")+"/NavigationBar.json");
-        let imgsrc = require("../images/"+localStorage.getItem("lang")+".png");
+        let imgsrc = require("../images/"+flagger+".png");
 		let flagImg = <Image src={imgsrc} alt="flag" onClick={handleClick}/>
 
 		function handleClick(e) {
