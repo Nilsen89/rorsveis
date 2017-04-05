@@ -50,12 +50,12 @@ class AboutUsText extends Component {
                                          email="eide@rorsveis.no" />
                         </Row>
                         <Row style={centerRow}>
-                            <Profiles 	name="May-Liss Ahlsen Larsen"
+                            <Profiles 	name="May-Liss A. Larsen"
                                          title="Board Member"
                                          email="larsen@rorsveis.no" />
                         </Row>
                         <Row style={centerRow}>
-                            <Profiles 	name="Mariusz Stanislaw Roginski"
+                            <Profiles 	name="Mariusz S. Roginski"
                                          title="Board Member"
                                          email="roginiski@rorsveis.no"/>
                         </Row>
